@@ -1,0 +1,6 @@
+{
+  "modulePaths": ["<rootDir>/node_modules/"],
+  "moduleFileExtensions": ["js"],
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**"]
+}
