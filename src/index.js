@@ -1,4 +1,3 @@
-const _ = require('lodash');
 const defPredicate = (match, key) => (a) => a[key] === match;
 const toggleUpdate = (toggleKey) => (a) => ({...a, [toggleKey]: !a[toggleKey]});
 const updateChildren = (key, val) => (a) => (a.children ?
